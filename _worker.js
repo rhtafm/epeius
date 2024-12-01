@@ -1,7 +1,7 @@
 // _worker.src.js
 import { connect } from "cloudflare:sockets";
 
-let password = '';
+let password = 'b1464181-69bd-4a88-b92d-b836a334b156';
 let proxyIP = '';
 // The user name and password do not contain special characters
 // Setting the address will ignore proxyIP
@@ -9,7 +9,33 @@ let proxyIP = '';
 let socks5Address = '';
 
 let addresses = [
-	//当sub为空时启用本地优选域名/优选IP，若不带端口号 TLS默认端口为443，#号后为备注别名
+	'[2606:4700::]',
+	'[2606:4700:310c::ac42:2c39]',
+	'[2606:4700:e7:25:4b9:f8f8:9bfb:774a]',
+	'icook.hk',
+	'icook.tw',
+	'icook.tw:2053',
+	'www.wto.org:8443',
+	'time.is',
+	'creativecommons.org',
+	'104.17.0.0',
+	'www.gco.gov.qa',
+	'www.gov.se',
+	'www.digitalocean.com',
+	'www.shopify.com',
+	'www.whatismyip.com',
+	'www.hugedomains.com',
+	'www.udacity.com',
+	'www.udemy.com',
+	'www.baipiao.eu.org',
+	'xn--b6gac.eu.org',
+	'log.bpminecraft.com',
+	'www.boba88slot.com',
+	'gur.gov.ua',
+	'www.iakeys.com',
+	'edtunnel-dgp.pages.dev',
+	'fbi.gov',
+	'www.csgo.com:2087'
 ];
 
 let sub = ''; 
